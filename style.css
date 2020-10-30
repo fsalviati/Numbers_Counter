@@ -1,0 +1,66 @@
+body{
+    background-image: url('background.jpg');
+}
+
+.main-container{
+    height: 420px;
+    border-radius: 15px;
+    background:#7f7f7f;
+    background:rgba(0,0,0,0.5);
+    position: relative;
+
+}
+
+#elements-container{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 84%;
+}
+#btn-container{
+    position: absolute;
+    top: 310px;
+    left: 52px;
+}
+  
+
+#counter-text{
+    color: rgb(200, 229, 233);
+    font-size: 6rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+#counter-number{
+    font-size: 10rem;
+    color: rgb(200, 229, 233);
+    
+}
+.max-height {
+    min-height: 90vh;
+}
+
+  .btn-counter {
+    position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+	color: rgb(200, 229, 233);
+    text-decoration: none;	
+    background-color: #8fc0e0;
+	border-bottom: 5px solid #4690c2;
+	text-shadow: 0px -2px #2980B9;
+  } 
+  .btn-counter:hover
+{
+    color: #4e96c7;
+}
+  .btn-counter:active
+{
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+  
